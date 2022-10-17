@@ -1,3 +1,8 @@
+create folder and yml file
+```sh
+mkdir docker-PiHole && cd docker-PiHole && touch docker-compose.yml
+```
+
 start docker
 ```sh
 docker compose up -d
