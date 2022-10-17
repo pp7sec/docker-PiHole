@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  pihole:
+  pi-hole:
     container_name: pi-hole
     image: pihole/pihole:latest
     ports:
