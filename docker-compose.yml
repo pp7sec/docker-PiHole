@@ -11,7 +11,7 @@ services:
       - "1280:80/tcp"
       - "12443:443/tcp"
     environment:
-      TZ: 'Asia/Kolkata' #this is the time zone
+      TZ: 'Asia/Bangkok' #this is the time zone
     volumes:
        - './etc-pihole/:/etc/pihole/'
        - './etc-dnsmasq.d/:/etc/dnsmasq.d/'
